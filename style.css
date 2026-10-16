@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f2f3f3;
+  color: #363b3b;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+main {
+  max-width: 948px;
+  margin: 64px auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 32px;
+  letter-spacing: -1px;
+}
+
+.score {
+  margin: 0 0 20px;
+  font-size: 18px;
+  font-variant-numeric: tabular-nums;
+}
+
+#score {
+  margin-left: 8px;
+  font-weight: 700;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid #ccd0d0;
+  background: #f7f8f8;
+  image-rendering: pixelated;
+  touch-action: none;
+}
+
+button {
+  margin-top: 24px;
+  padding: 10px 28px;
+  border: 0;
+  border-radius: 4px;
+  background: #363b3b;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+button:focus-visible {
+  outline: 3px solid #7b8585;
+  outline-offset: 4px;
+}
+
+#instructions {
+  margin: 18px 0 0;
+  color: #626969;
+  font-size: 14px;
+  line-height: 1.8;
+}
